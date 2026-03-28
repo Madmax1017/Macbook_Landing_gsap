@@ -6,6 +6,7 @@ import './App.css'
 import react from 'react'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import ProductViewer from "./components/ProductViewer.jsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <main>
           <Navbar />
           < Hero />
+          <ProductViewer />
       </main>
 
   )
